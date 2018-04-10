@@ -70,7 +70,6 @@ public class StringAnalyzer {
     public static void main(String[] args) {
         String specifiedLine = "Dong-ding-dong";
         StringAnalyzer dongAnalyzer = new StringAnalyzer();
-
         System.out.println("1. Count of letter in line: "+dongAnalyzer.letterCounter(specifiedLine));
         System.out.println("2. Equals to lines(current and \"test\"): "+dongAnalyzer.equalsLinesEgnoreCase(specifiedLine,"test"));
         System.out.println("   Equals to lines(current and current): "+dongAnalyzer.equalsLinesEgnoreCase(specifiedLine,specifiedLine));
